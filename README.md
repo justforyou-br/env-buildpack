@@ -16,7 +16,7 @@ variables you want to export (one per line):
 Add this buildpack to your app. **Make sure this is the first buildpack
 in the buildpack list**.
 
-    $ heroku buildpacks:add --index 1 --app my-app https://github.com/loadsmart/env-buildpack
+    $ heroku buildpacks:add --index 1 --app my-app https://github.com/justforyou-br/env-buildpack
 
 Done! Next time you deploy your code, the variables you specified in
 the `.env-export` file will be available in the compile phase. 
